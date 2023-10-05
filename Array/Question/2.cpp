@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include<vector>
 #include<climits>
 using namespace std;
@@ -8,8 +8,8 @@ using namespace std;
 int main()
 {
     
-    vector<int>arr{1,2,4,6,8,10};
-    vector<int>brr{3,4,5,6};
+    vector<int>arr{1,2,3,3};
+    vector<int>brr{2,2,4};
     vector<int>ans;
 
     cout<<sizeof(ans)<<endl;;
@@ -51,7 +51,9 @@ int main()
         
     }
 
-    cout<<sizeof(ans)<<endl;
+    // cout<<sizeof(ans)<<endl;
+
+    sort(ans.begin() , ans.end());
 
     for (int i = 0; i < ans.size(); i++)
     {
