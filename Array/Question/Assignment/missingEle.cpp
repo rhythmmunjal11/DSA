@@ -13,29 +13,33 @@ void findElement(int *arr , int n){
     {
         int index = abs(arr[i]); // abs is like mod means positive the -ve value
 
-        if (arr[index - 1] > 0)
+        if (arr[index - 1] < 0 )
         {
-            arr[index - 1]*=-1;
+            cout<<index-1<<endl;
+        }
+        
+        else{
+            arr[index-1]*=-1;
         }
         
     }
 
-    for (int i = 0; i < n; i++)
-    {
-        if (arr[i] > 0)
-        {
-            cout<<i+1<<" ";
-            // break;
-        }
+    // for (int i = 0; i < n; i++)
+    // {
+    //     if (arr[i] > 0)
+    //     {
+    //         cout<<i+1<<" ";
+    //         // break;
+    //     }
         
-    }
+    // }
     
     
 }
 
 int main()
 {
-    int arr[] = {1,3,5,3,4};
+    int arr[] = {1,3,3,4,6};
     int n = sizeof(arr)/sizeof(int);
 
     findElement(arr , n);
