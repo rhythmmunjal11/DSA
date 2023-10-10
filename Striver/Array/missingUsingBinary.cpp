@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    vector<int>arr{1,2,3,4,6,7,8};
+    vector<int>arr{2,3,4,5,6};
 
     int s = 0 ; 
     int e = arr.size()-1;
 
     int mid = s + (e-s)/2;
-    int ans = -1;
+    int ans = 0;
 
 
     while (s<=e)
@@ -26,7 +26,11 @@ int main()
         mid = s + (e-s)/2;
     }
 
+    //  if(ans +1 == 0)
+    //     cout<<arr.size()+1;
+
     cout<<ans+1;
+
     
 
     return 0;
