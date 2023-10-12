@@ -2,8 +2,8 @@
 using namespace std;
 
 int main()
-{
-    vector<int>arr{3,8,10,17,1};
+{   // here we find minimum element in a array that is pivot
+    vector<int>arr{3,8,10,17,1,2};
 
     int s = 0;
     int e = arr.size()-1;
@@ -18,11 +18,12 @@ int main()
         else{
             e = mid;
         }
-        
+
         mid = s + (e-s)/2;
     }
 
     cout<<"pivot is at index "<<s<<endl;
+    cout<<"pivot value is  "<<arr[s]<<endl;
     
 
 
