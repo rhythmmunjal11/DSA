@@ -25,17 +25,18 @@ int findPivot(vector<int>arr){
             return mid-1;
         }
 
-        if (arr[e] < arr[mid])
-        {
-            s = mid + 1;
-        }
-        // if (arr[s] > arr[mid])
+        // if (arr[e] <= arr[mid])
         // {
-        //     e = mid - 1;
+        //     s = mid + 1;
         // }
 
-        else{
+        if (arr[s] >= arr[mid])
+        {
             e = mid - 1;
+        }
+
+        else{
+            s = mid + 1;
         }
 
         mid = s + (e-s)/2;
@@ -51,8 +52,8 @@ int main()
 {
 
     // vector<int>arr{9,10,2,4,6};
-    vector<int>arr{9};
-    // vector<int>arr{9,10,2,4,6};
+    // vector<int>arr{9};
+    vector<int>arr{9,10,2,4,6};
 
     int ans = findPivot(arr);
 
@@ -71,3 +72,27 @@ int main()
     return 0;
 
 }
+
+
+
+// or  **************************************** 
+
+//  int s = 0;
+//     int e = arr.size()-1;
+//     int mid = s + (e-s)/2;
+
+//     while (s<e)
+//     {
+//         if(arr[mid] >= arr[0]){
+//             s = mid + 1;
+//         }
+
+//         else{
+//             e = mid;
+//         }
+
+//         mid = s + (e-s)/2;
+//     }
+
+//     cout<<"pivot is at index "<<s<<endl;
+//     cout<<"pivot value is  "<<arr[s]<<endl;
