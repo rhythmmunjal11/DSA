@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+
+// find odd occurence 
+
 int findIndex(vector<int>arr){
     int s = 0;
     int e = arr.size() - 1;
