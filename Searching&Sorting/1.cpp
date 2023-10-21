@@ -31,13 +31,13 @@ int firstOcc(vector<int> arr, int target) {
 
 int main() {
   vector<int> v{1,3,3,3,3,3,3,4,4,4,4,6,7};
-  int target = 7;
+  int target = 3;
 
   // int ans = firstOcc(v, target);
   // cout << "ans is. "<< ans << endl;
 
-//   auto ans2 = upper_bound (v.begin(), v.end(), target);
-  auto ans2 = lower_bound(v.begin(), v.end(), target);
+  auto ans2 = upper_bound (v.begin(), v.end(), target);
+  // auto ans2 = lower_bound(v.begin(), v.end(), target);
   cout << "ans2 is " << ans2-v.begin() << endl;
 //   cout << "ans2 is " << ans2-v.begin() << endl;
 
