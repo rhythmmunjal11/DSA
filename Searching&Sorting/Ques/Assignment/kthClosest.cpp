@@ -5,7 +5,7 @@ public:
         int s = 0 ; 
         int e = arr.size() - 1;
         int mid = s + (e-s)/2;
-        int ans = e; // ans = e insted of -1 as [3,5,8,10] testcase
+        int ans = e; // ans = e insted of -1 as [3,5,8,10] testcase when x = 15
 
         while(s<=e){
             if(arr[mid] >= x){
