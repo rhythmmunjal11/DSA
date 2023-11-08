@@ -35,19 +35,19 @@ int main()
 
 
 
-    char ch[50];
+    // char ch[50];
 
-    cin>>ch[2];
-    cin>>ch[5];
-    cin>>ch;
+    // cin>>ch[2];
+    // cin>>ch[5];
+    // cin>>ch;
     // cin.getline(ch , 50);
 
     // cout<<ch;
 
-    for (int i = 0; i < 8; i++)
-    {
-        cout<<ch[i]<<" ";
-    }
+    // for (int i = 0; i < 8; i++)
+    // {
+    //     cout<<ch[i]<<" ";
+    // }
     
 
 

@@ -41,11 +41,11 @@ int main()
 
 
 
-    string s1 = "right";
-    string s2 = "right145090";
+    // string s1 = "right";
+    // string s2 = "right145090";
 
-    cout<<s1.compare(s2)<<endl;
-    cout<<s2.compare(s1)<<endl;
+    // cout<<s1.compare(s2)<<endl;
+    // cout<<s2.compare(s1)<<endl;
     
 
     // if (s1.compare(s2) == 0)
