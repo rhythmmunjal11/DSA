@@ -8,9 +8,14 @@ int main()
     int c;
     cout<<c<<endl;
 
-    int *p ; // bad practice 
-    cout<<p<<endl;
-    cout<<*p<<endl;
+    // int *p ; // bad practice 
+    // cout<<p<<endl;
+    // cout<<*p<<endl;
+
+    int *r =  0;
+    cout<<r<<endl;
+    cout<<*r<<endl;
+    
 
     // cout<<*a;  
 
