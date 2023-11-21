@@ -6,15 +6,15 @@ int main()
     int a = 5;
     int b = 3;
     int c;
-    cout<<c<<endl;
+    // cout<<c<<endl;
 
     // int *p ; // bad practice 
     // cout<<p<<endl;
     // cout<<*p<<endl;
 
     int *r =  0;
-    cout<<r<<endl;
-    cout<<*r<<endl;
+    cout<<r<<endl;  // 0 addresss
+    cout<<*r<<endl; // prints nothing as nothing inside that address 
     
 
     // cout<<*a;  

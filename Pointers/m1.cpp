@@ -3,26 +3,21 @@ using namespace std;
 
 int main()
 {
-    int arr[5] = {1,20,34,42,50};
-    // // cout<<*arr+1<<endl;
-    // // cout<<*(arr+1)<<endl;
-    // // cout<<*arr<<endl;
-    // // cout<<1[arr]<<endl;
+    // char c = 'r';
+    char c[] = "rhythm";
 
+    // char c[] = {'r' , 'h'};
+    // char *ch = &c[0];
 
-    // int *p = &arr[0];
-    // p = p + 2;
-    // cout<<p<<endl;
-
-    // cout<<&p<<endl;
-    // &p = &p+1; // wrong
-
-
-    char c = 'r';
-    char *ch = &c;
+    char *ch = &c[0];
 
     cout<<c<<endl;
-    cout<<&c<<endl;
+    cout<<c+3<<endl;
+    // cout<<*c<<endl;   
+    cout<<"address of c char = "<<&c<<endl;
+
+    // cout<<&c[0]<<endl; // wrong (error)
+
     // cout<<&c[0]<<endl;
     // cout<<endl;
 
@@ -42,11 +37,9 @@ int main()
     cout<<*ch<<endl;
     cout<<*ch+1<<endl;
     cout<<(ch+1)<<endl; 
+    cout<<*(ch+1)<<endl; 
 
     
-
-
-
 
 
     return 0;
