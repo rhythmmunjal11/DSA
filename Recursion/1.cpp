@@ -3,17 +3,25 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cout<<"Enter the value of n : "<<endl;
+    // int n;
+    // cout<<"Enter the value of n : "<<endl;
 
-    cin>>n;
+    // cin>>n;
 
-    cout<<n<<endl;
+    // cout<<n<<endl;
 
-    int n1 ;
-    cin>>n1;
+    // int n1 ;
+    // cin>>n1;
 
-    cout<<n1;
+    // cout<<n1;
+
+    int x = 10;
+    int y = 11;
+
+    int z = (x,y); // 11
+    cout<<z<<endl;
+
+    cout<<(x,y); // 11
 
     return 0;
 

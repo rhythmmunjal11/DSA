@@ -63,7 +63,7 @@ int main()
     int i = 0;
 
     findMax(arr , n , i , maxi);
-    findMin(arr , n, i , mini);
+    // findMin(arr , n, i , mini);
 
     cout<<"maximum value of maxi is : "<<maxi<<endl;
     cout<<"minimum value of mini is : "<<mini<<endl;
