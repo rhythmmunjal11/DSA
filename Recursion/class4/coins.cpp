@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// find minimum number of coins to make (target)
+
 int solve(vector<int>& arr , int target){
 
     // base case
@@ -14,10 +16,11 @@ int solve(vector<int>& arr , int target){
         return INT_MAX;
     }
 
-    int mini = INT_MAX;
-
 
     // 1 case solve
+
+    int mini = INT_MAX;
+    
     for (int i = 0; i < arr.size(); i++)
     {
         int ans = solve(arr , target-arr[i]);
