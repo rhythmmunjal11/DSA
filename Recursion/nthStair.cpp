@@ -9,6 +9,7 @@ int noOfWays(int n){
         return 1 ; 
     }
 
+
     return noOfWays(n-1) + noOfWays(n-2);
     
 
@@ -26,3 +27,28 @@ int main()
     return 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

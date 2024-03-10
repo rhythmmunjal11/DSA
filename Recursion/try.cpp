@@ -14,6 +14,13 @@ int main()
     cout<<c<<endl;
     cout<<&c<<endl;
 
+    c = 10;
+
+    cout<<"after the value of c gets updated to 10 -> "<<endl;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+
     int& d = c;
     cout<<&d<<endl;
 

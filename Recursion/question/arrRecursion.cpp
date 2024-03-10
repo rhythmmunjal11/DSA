@@ -2,29 +2,34 @@
 using namespace std;
 
 void printArr(int arr[] , int n , int i){ // use this int& i to see differecnde
+
+    // cout<<"address of arr int printArr(pass by value ) "<<arr<<endl;
+
+    // arr = arr + 1;
+
     if (i>=n)
     {
         return;
     }
 
-    // cout<<arr[i]<<" ";
+    cout<<arr[i]<<" ";
 
     //****************
     // printArr(arr , n , i++); // infinite time 3 will print as it is post-increment
 
 
 
-    // printArr(arr , n , ++i); // correct ********* importatnt 
+    printArr(arr , n , ++i); // correct ********* importatnt 
 
 
     // int num1 = i+1;
 
     // printArr(arr , n , num1); // correct 
-    printArr(arr , n , i+1); // correct 
+    // printArr(arr , n , i+1); // correct 
 
     cout<<i<<" index -> value is : "; // *******important
 
-    cout<<arr[i]<<endl; //// *8888 important dry run this all important 
+    cout<<arr[i]<<endl; //// ********** important dry run this all important 
     
 }
 
@@ -51,6 +56,10 @@ int main()
 
     int n = 5;
     int i = 0;
+
+
+
+    cout<<"address of arr in main() "<<arr<<endl;
 
     printArr(arr , n , i);
 

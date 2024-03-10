@@ -11,6 +11,7 @@ void printDigit(int& n){
         return;
     }
 
+    
     // ek case hum solve karge 
     // cout<<n%10<<" ";  // 7 4 6  
 

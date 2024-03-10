@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void func(int arr[] , int n){ // insted of int arr[]
+void func(int arr[] , int n){ // instead of int arr[]
 
     cout<<"in function func "<<endl;
     // cout<<sizeof(arr)<<endl;
@@ -10,8 +10,8 @@ void func(int arr[] , int n){ // insted of int arr[]
     arr = arr+1;
     cout<<arr<<endl;
     cout<<&arr<<endl;
-
-    arr[0] = 90;
+ 
+    arr[0] = 90;  // imp
     arr[1] = 100;
     for (int i = 0; i < 5; i++)
     {

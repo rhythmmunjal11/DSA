@@ -5,7 +5,7 @@ int main()
 {
     int arr[5] = {11,2,34,2,1};
 
-    int* ptr2 = &(arr);  //***************************
+    // int* ptr2 = &(arr);  //***************************
 
     int* ptr1 = &arr[0];
     int* ptr = arr;
@@ -18,7 +18,8 @@ int main()
     cout<<arr<<endl;
     cout<<&arr<<endl;
     // cout<<(arr+1)<<endl;
-    // cout<<&(arr+1)<<endl;
+
+    //cout<<&(arr+1)<<endl;    // ***********************************
 
     return 0;
 

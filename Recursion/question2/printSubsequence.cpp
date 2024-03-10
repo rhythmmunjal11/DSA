@@ -22,7 +22,10 @@ void printSubsequences(string str, int n, string output, int i, vector<string>& 
 
 int main() {
 
-  string str = "abc";
+  //string str = "abcde"; // this shows ki issme array ke elements (non-contigous) print ho rahe hai 
+  // string str = "abc";
+
+  string str = "xy";
   string output = "";
   vector<string> v;
   int i = 0;
