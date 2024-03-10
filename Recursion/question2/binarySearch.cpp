@@ -3,7 +3,7 @@ using namespace std;
 
 // vector<int> arr  // ************** in this copy of vector is created (changes made wiill not be changed in original array as copy of vectors is created in this )
 
-// vector<int>& arr // *********** this is pass by reference , so in this copy is not created of vector , instead (same memory , different name ) , so whatever changes will be made will displyed in actual vector array 
+// vector<int>& arr // *********** this is pass by reference , so in this copy is not created of vector , instead (same memory , different name ) , so whatever changes will be made will displyed in actual vector array changed
 
 int binarySearch(vector<int> arr , int s , int e , int key){
 
