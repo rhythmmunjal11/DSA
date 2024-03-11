@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// solved
+
+
 int solve(int n , int x ,int y , int z){
 
     // base case
