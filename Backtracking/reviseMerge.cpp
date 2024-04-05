@@ -18,7 +18,7 @@ void merge(int* arr , int s , int e){
         k++;
     }
 
-    k = mid + 1;
+    // k = mid + 1;
 
     for(int i = 0 ; i < len2 ; i++){
         right[i] = arr[k];
@@ -101,7 +101,8 @@ int main()
     // cout<<arr.size();
 
 
-    int arr[6] = {30,2,4,5,16,4};
+    int arr[6] = {5,2,3,1,9,4};
+    // int arr[6] = {30,2,4,5,16,4};
 
     int s = 0;
     int e = 5;
