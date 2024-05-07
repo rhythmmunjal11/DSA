@@ -17,7 +17,14 @@ void findMax(int arr[] , int n , int& i , int& maxi){ // ********** here value o
 
 
     // baaki recursion will handle 
-    int newi = i+1;
+
+
+    int newi = i+1; ///////////////// **** here the value of i after complete excution of the function , the value of i in main() will be -> 0  
+    
+    // (important)
+
+
+
     // i = i + 1;         we can't do that if int& i , we have to store it in another variable
     findMax(arr , n , newi , maxi);
     
@@ -67,6 +74,8 @@ int main()
 
     findMax(arr , n , i , maxi);
     // findMin(arr , n, i , mini);
+
+    cout<<"value of i after updated : "<<i<<endl;
 
     cout<<"maximum value of maxi is : "<<maxi<<endl;
     // cout<<"minimum value of mini is : "<<mini<<endl;

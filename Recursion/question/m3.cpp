@@ -17,7 +17,7 @@ void findMax(int arr[] , int n , int i , int& maxi){ // ********** here value of
         maxi = arr[i];
     }
 
-    // int newi = ++i;
+    // int newi = ++i;  same as i=i+1
     // int newi = i++;      // infinte times  0 printing as the value of i is overwritign to 0 
     // int newi = i+1;
 
@@ -50,7 +50,7 @@ int main()
 
     findMax(arr , n , i , maxi);
     
-     cout<<"value of i in main() after findMax function  "<<i<<endl;
+    cout<<"value of i in main() after findMax function  "<<i<<endl;
 
 
     cout<<"maximum value of maxi is : "<<maxi<<endl;

@@ -18,8 +18,11 @@ void printArr(int arr[] , int n , int i){ // use this int& i to see differecnde
     // printArr(arr , n , i++); // infinite time 3 will print as it is post-increment
 
 
+    // ++i means (i=i+1)
 
     printArr(arr , n , ++i); // correct ********* importatnt 
+
+    cout<<endl;
 
 
     // int num1 = i+1;
@@ -52,7 +55,7 @@ int main()
     
     // traverse a array using recursion 
 
-    int arr[5] = {3,4,5,6,7};
+    int arr[5] = {3,4,8,6,7};
 
     int n = 5;
     int i = 0;

@@ -24,7 +24,7 @@ void printDigit(int& n){
     cout<<"n ki value "<<n<<endl;    
 
     // ek case hum solve karge 
-    cout<<n%10<<" ";  ///// 6 4 7 
+    cout<<n%10<<endl;;  ///// 6 4 7 
 
 
 

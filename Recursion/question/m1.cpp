@@ -20,7 +20,8 @@ int main()
 
 
     int a = 0;
-    int b = ++a;
+    // int b = ++a;
+    int b = a++; // imp
     cout<<a<<endl;
     cout<<b<<endl;
 
