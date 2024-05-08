@@ -12,11 +12,15 @@ int main()
     cout<<a<<endl;
 
     // vector<int>arr{40};
-    vector<int>arr;
+    // vector<int>arr(40);
+
+    // vector<int>arr;
     // arr.push_back(21);
 
-    cout<<arr[0]<<endl;
-    cout<<arr[1]<<endl;
+    // int arr[10];
+
+    // cout<<arr[0]<<endl;
+    // cout<<arr[1]<<endl;
 
     func(a);
 

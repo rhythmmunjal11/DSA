@@ -28,9 +28,9 @@ void func(int arr[] , int n){ // instead of int arr[]
 
 int main()
 {
-    int arr[5] = {10,11,12,14,13};
+    // int arr[5] = {10,11,12,14,13};
 
-    // vector<int>arr = {10,11,12,14,13};
+    vector<int>arr = {10,11,12,14,13}; // vector
 
     cout<<"inside main "<<endl;
 

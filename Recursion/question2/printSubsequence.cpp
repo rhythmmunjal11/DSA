@@ -4,17 +4,18 @@ using namespace std;
 
 void printSubsequences(string str, int n, string output, int i, vector<string>& v) {
   //base case
+
   if(i == n ) {
     v.push_back(output);
     return;
   }
 
+  //exclude
+  printSubsequences(str,n, output, i+1,v);
 
   //include
   printSubsequences(str,n, output + str[i], i+1,v);
 
-   //exclude
-  printSubsequences(str,n, output, i+1,v);
  
 
 

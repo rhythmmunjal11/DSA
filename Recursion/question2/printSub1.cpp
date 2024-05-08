@@ -6,7 +6,7 @@ void printSub(string str , int n , int i , string output , vector<string>& final
     // base case
     if(i >= n){
         final.push_back(output);
-        return ;
+        return ;                       
     }
 
     // include

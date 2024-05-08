@@ -25,21 +25,26 @@ bool checkSort(vector<int>&arr , int& n, int i){
 int main()
 {
     // int arr1[5] {10,20,30,40,50};
+    // int arr1[]=(3,4); // error *********** 
     // int arr1[5] (10,20,30,40,50); // error
     // int arr2[5]  {10}; // error
     // vector<int>arr2(5,20,30,40);  // error
-    // vector<int>arr2(5,20); 
-    // vector<int>arr2{5}; 
-    // int arr2[5]   {10};
-    // vector<int>arr2={5}; 
-    // vector<int>arr2(5); 
+    // vector<int>arr2(5,20); // pheli 5 value 20 hai
+    //vector<int>arr2{5}; // pheli value 5 hai baaki sari random value hai
+
+   // int arr2[5]   {10}; //****************** pheli value 5 hai baaki 4 value 0 hai 
+
+    // vector<int>arr2={5}; pheli value 5 hogi
+    //vector<int>arr2(5); // pheli 5 value 0 hogi as size is mentioned 5
+
     // int arr2[5] = (2);     wrong
-    // int arr2[5];
-    // for (int i = 0; i < 7; i++)
-    // {
-    //     /* code */
-    //     cout<<arr2[i]<<" ";
-    // }
+    int arr2[5]; // saari random value 
+
+    for (int i = 0; i < 7; i++)
+    {
+        /* code */
+        cout<<arr2[i]<<" ";
+    }
     
     // cout<<endl;
 
@@ -52,15 +57,15 @@ int main()
     int n = 6;
     int i = 0 ;
 
-    bool ans  = checkSort(arr,n,i);
+    // bool ans  = checkSort(arr,n,i);
 
-    if(ans){
-        cout<<"sorted ";
-    }
+    // if(ans){
+    //     cout<<"sorted ";
+    // }
 
-    else {
-        cout<<"not sorted ";
-    }
+    // else {
+    //     cout<<"not sorted ";
+    // }
 
     return 0;
 
