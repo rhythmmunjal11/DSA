@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// solved
-
 
 int solve(int n , int x ,int y , int z){
 
@@ -38,7 +36,7 @@ int main()
 
     int n = 7;
     int x = 2;
-    int y = 2;
+    int y = 5;
     int z = 5;
 
 
