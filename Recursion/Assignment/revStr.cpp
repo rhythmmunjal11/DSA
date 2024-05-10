@@ -24,7 +24,7 @@ void revStrr(string& str , int s , int e ){
 int main()
 {
     string str = "munjal";
-    // string str = "raceCar";
+    // string str = "raceCar"; // raCecar 
 
     // reverse
 
@@ -38,7 +38,7 @@ int main()
 
     // for (auto i : str)
     // {
-    //     cout<<i<<" ";
+    //     cout<<i<<" "; // prints l a j n u m
     // }
     
 

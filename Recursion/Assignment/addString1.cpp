@@ -22,7 +22,12 @@
 
 //                     if(carry!=0){
 //                         // return ans.push_back(carry+'0');
-//                         return string(1 , carry+'0');
+
+
+                   //     [string banaye 1 length ki return] string(1 , carry+'0');
+
+
+
 //                     }
 
 

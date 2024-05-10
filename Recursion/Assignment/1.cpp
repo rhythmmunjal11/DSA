@@ -15,11 +15,13 @@ int main()
 
 
 
-   // strrchr finds the last occurence of a given character 
+   // strrchr finds the last (occurence) of a (given character )
 
 
     char str[] = "This is a sample string";
-    // string str = "this is a sample string";  // not work for this 
+
+     //string str = "this";  // not work for this *************** important ****************************
+     
   char * pch;
   pch=strrchr(str,'s'); // last occurence 
 

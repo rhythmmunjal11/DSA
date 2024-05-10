@@ -12,6 +12,7 @@ void lastOcc(string& str , int i , int& ans , char& ch){
     if(str[i] == ch){
 
         ans = i;
+        // return; // if we want to find first occurece 
 
     }
 
