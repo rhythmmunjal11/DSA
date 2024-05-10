@@ -13,6 +13,8 @@ int main()
     // cout<<str.length()<<endl;
 
 
+
+
    // strrchr finds the last occurence of a given character 
 
 

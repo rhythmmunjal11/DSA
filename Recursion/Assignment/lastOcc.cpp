@@ -55,6 +55,8 @@ int main()
     string str ;
     cin>>str;
 
+    // char str[] = "this is string ";
+
     char ch;
     cin>>ch;
 
