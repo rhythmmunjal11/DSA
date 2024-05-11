@@ -48,9 +48,6 @@ int main()
 
 
     vector<int>arr{1,2,3,4,5};
-    int start = 0;
-    int end = 0;
-
     subArr(arr );
 
 
