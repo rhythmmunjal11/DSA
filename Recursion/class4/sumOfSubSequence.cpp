@@ -19,7 +19,9 @@ void solve(vector<int>& arr,int i, int sum, int &maxi) {
 
 int main() {
   // vector<int> arr{1, 2, 3, 1, 3, 5, 8, 1, 9};
-  vector<int> arr{1, 2, 3, 5};
+  // vector<int> arr{1, 2, 3, 5 , 4}; // answer is -> 8
+
+  vector<int>arr = {3,2,4,8}; // answer -> 11
   int sum = 0;
   int maxi = INT_MIN;
   int i = 0;

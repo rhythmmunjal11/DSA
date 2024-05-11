@@ -1,14 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void func(int arr[] , int n){ // instead of int arr[]
+void func(vector<int> arr, int n){ // instead of int arr[]
 
     cout<<"in function func "<<endl;
     // cout<<sizeof(arr)<<endl;
     cout<<&arr[0]<<endl;
     cout<<&arr<<endl;
-    arr = arr+1;
-    cout<<arr<<endl;
+    // arr = arr+1;
+    // cout<<arr<<endl; 
     cout<<&arr<<endl;
  
     arr[0] = 90;  // imp

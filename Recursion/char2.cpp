@@ -7,7 +7,7 @@ void findChar(string& str , int& n , int& i , char& key , vector<int>&ans){
 
     // base case
     if(i>=n){
-        return ; ///////////////////////////////// void  
+        return ; ///////////// void  
     }
 
 // 1 case solve kara
@@ -24,7 +24,7 @@ void findChar(string& str , int& n , int& i , char& key , vector<int>&ans){
     }
 
 // baaki recursion will handle 
-    // return findChar(str , n , ++i , key , count); // chaiye return lagao ya na lagao same baat hai 
+    //  findChar(str , n , ++i , key , count); // chaiye return lagao ya na lagao same baat hai 
 
     return findChar(str,n,++i,key,ans);
 

@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool findChar(string& str , int& n , int& i , char& key){
+int findChar(string& str , int& n , int& i , char& key){
 
     // ***** important int& i  m hum i+1 nahi kar sakte  , what we can do is ---->>> ++i 
 
@@ -16,7 +16,7 @@ bool findChar(string& str , int& n , int& i , char& key){
 
     // base case
     if(i>=n){
-        return false;
+        return 0;
     }
     // or  **************************
     
@@ -26,14 +26,16 @@ bool findChar(string& str , int& n , int& i , char& key){
 
     // solve one case 
     if(str[i] == key){
-        return true;
+        return 1;
     }
 
     //int newi = i+1; // do if (int& i )  pass by referecne ho 
 
     // baaki recursion sambhal lega
     // return findChar(str , n , i+1 , key);
-    return findChar(str , n , ++i , key); // do if int& i ho
+     findChar(str , n , ++i , key); // do if int& i ho 
+
+     // important : chaiye return lagaao ya na lagaao baat same hogi , answer same hi aayega 
 
 }
 
